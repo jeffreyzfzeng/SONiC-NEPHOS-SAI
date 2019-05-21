@@ -30,3 +30,7 @@ Step 1~4 show how to build and execute NPS kernel modules.
    (2) insmod nps_netif.ko
 
    Note that the module inserting sequence cannot be changed.
+
+Note: if the building machine has different Linux version or the CPU
+is 32-bit or 64-bit, it may have compilation error, so some code
+may need to be removed to make the compilation work.
